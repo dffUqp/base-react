@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/base-react/static/js/2.41b6979f.chunk.js"
   },
   {
-    "revision": "5eb1ce774553c0d0670da1cc5e95ab00",
+    "revision": "3b28254a23522629718bd28626f94717",
     "url": "/base-react/index.html"
   }
 ];
