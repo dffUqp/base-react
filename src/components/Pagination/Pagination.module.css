@@ -1,0 +1,20 @@
+.pagination {
+  display: flex;
+  margin-top: 20px;
+  padding: 10px;
+  justify-content: center;
+  gap: 10px;
+}
+
+.pagination__item {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.pagination__currentIem {
+  background-color: rgb(118, 118, 118);
+
+}

@@ -1,0 +1,14 @@
+.mybtn {
+  border: 2px solid rgb(33, 218, 255);
+  text-align: center;
+  padding: 10px 14px;
+  background-color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease 0s;
+  font-size: 16px;
+}
+
+.mybtn:hover {
+  background-color: rgb(33, 218, 255);
+  color: white;
+}
