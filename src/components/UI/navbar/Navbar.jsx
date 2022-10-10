@@ -1,6 +1,6 @@
 import React from 'react';
 import { useContext } from 'react';
-import { NavLink, Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { AuthContext } from '../../../context/context';
 import MyButton from '../button/MyButton';
 import classes from './Navbar.module.css';
@@ -19,7 +19,7 @@ function Navbar() {
   };
 
   return (
-    <header>
+    <header style={{ width: '100%' }}>
       <nav className={classes.navbar}>
         <div>
           <NavLink className={isActiveLink} to="/post">

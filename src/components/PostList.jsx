@@ -2,7 +2,6 @@ import React from "react";
 import PostItem from "./PostItem";
 
 function PostList({ posts, title, remove }) {
-  console.log(posts);
   if (posts.length === 0) {
     return <h1 style={{ textAlign: "center" }}>0 Post</h1>;
   }

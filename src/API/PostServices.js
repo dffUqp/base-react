@@ -1,9 +1,9 @@
-import axios from "axios";
+import axios from 'axios';
 
 export default class PostServices {
   static async getAll(limit = 10, page = 1) {
     const responce = await axios.get(
-      "https://jsonplaceholder.typicode.com/posts",
+      'https://jsonplaceholder.typicode.com/posts',
       {
         params: { _limit: limit, _page: page },
       }
@@ -13,7 +13,7 @@ export default class PostServices {
 
   static async getById(id) {
     const responce = await axios.get(
-      "https://jsonplaceholder.typicode.com/posts/" + id
+      'https://jsonplaceholder.typicode.com/posts/' + id
     );
     return responce;
   }

@@ -20,7 +20,7 @@ const usePost = (posts, sort, query) => {
         post.title.toLowerCase().includes(query.toLowerCase())
       ),
     [query, sortedPost]
-  );
+  );  
 
   return sortedAndSeachedPost;
 };

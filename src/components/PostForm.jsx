@@ -6,7 +6,7 @@ import Myinput from "./UI/input/Myinput";
 function PostForm({ createPost }) {
   const [post, setPost] = useState({ title: "", body: "" });
 
-  const addNewPost = (event, setPosts) => {
+  const addNewPost = (event) => {
     event.preventDefault();
 
     const newPost = { id: Date.now(), ...post };
@@ -26,7 +26,7 @@ function PostForm({ createPost }) {
       />
       <Myinput
         type="text"
-        placeholder="Discriptiomn"
+        placeholder="Description"
         value={post.body}
         onChange={(e) => {
           setPost({ ...post, body: e.target.value });

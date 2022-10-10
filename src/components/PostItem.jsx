@@ -15,9 +15,9 @@ function PostItem(props) {
       </div>
       <div className="post__btns">
         <MyButton onClick={() => navigate(`/post/${props.post.id}`)}>
-          Создать
+          Create
         </MyButton>
-        <MyButton onClick={() => props.remove(props.post)}>Удалить</MyButton>
+        <MyButton onClick={() => props.remove(props.post)}>Delete</MyButton>
       </div>
     </div>
   );
