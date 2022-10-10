@@ -1,9 +1,8 @@
-# React base Application
+# React Base Application
 
-This project implements some bases react-case 
-routes, API, hooks, state-manager etc.
+This project implements some base React functions: state manager, API, hooks, routes, etc.
 
-To see preview click this [link](https://dffUqp.github.io/base-react)
+To see the preview click this [link](https://dffUqp.github.io/base-react)
 
 ## Available Scripts
 
